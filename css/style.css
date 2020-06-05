@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Image */
+header{
+    background-image: url(./assets/hero.jpg);
+    height: 825px;
+    background-size: cover;
+}
+
+/* Main Nav */
+.mainNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Logo Icon */
+#logoIcon{
+    margin-top: 5px;
+}
+
+/* Nav Group */
+.navItems{
+    list-style: none;
+    margin-top: 24px;
+
+}
+
+/* Nav Options */
+.navItems li{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+font-family: 'Roboto', sans-serif;
