@@ -5,33 +5,43 @@
 }
 
 /* Hero Image */
-header{
+.hero{
     background-image: url(./assets/hero.jpg);
-    height: 825px;
     background-size: cover;
+    width: 100%;
+    padding-top: 50%;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Main Nav */
-.mainNav{
+nav{
     display: flex;
-    justify-content: space-around;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 
 /* Logo Icon */
 #logoIcon{
     margin-top: 5px;
+    margin-right: 600px;
+    margin-left: 250px;
 }
 
 /* Nav Group */
 .navItems{
     list-style: none;
     margin-top: 24px;
-
 }
 
 /* Nav Options */
 .navItems li{
-    display: inline-block;
+    float: left;
     color: white;
     font-size: 12px;
     text-decoration: underline;
@@ -41,4 +51,63 @@ header{
     margin-left: 40px;
 }
 
-font-family: 'Roboto', sans-serif;
+/* Navbar Scroll */
+nav.scrolled{
+    background-color: white;
+}
+
+nav.scrolled li{
+    color: rgb(65, 79, 107);
+}
+
+/* History Section */
+.historyPic{
+    background-image: url(./assets/historyPic.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 50%;
+}
+
+/* Mountain Section */
+.mountainPic{
+    background-image: url(./assets/mountainTwo.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 45%;
+}
+
+
+
+
+
+/*   Footer   */
+
+/* All content within the footer */
+.footerContent{
+    background-color: rgb(65, 79, 107);
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 0px;
+}
+
+/* LA Text */
+.losangelesLogo{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-top: 17px;
+    color: rgb(99, 118, 157);
+}
+
+/* The word 'Mountains' */
+#laLogo{
+    letter-spacing: .8px;
+}
+
+/* Copyright Text */
+.footerText{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(99, 118, 157);
+    font-size: 12px;
+    font-style: italic;
+    display: inline-block;
+}
